@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@color/design_default_color_primary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:id="@+id/nav_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/meaningmate"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="MeaningMate"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/userrole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Powered by Amlakie T."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
